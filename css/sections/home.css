@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Baron";
+  src: url('/fonts/Baron.ttf') format("truetype"); }
+
+/* line 8, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+html {
+  font-size: 62.5%; }
+
+/* line 11, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+.container {
+  margin: auto 0;
+  min-width: 100%; }
+  /* line 14, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+  .container nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white; }
+    /* line 18, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+    .container nav a {
+      font-family: Baron;
+      font-size: 2.5rem; }
+    /* line 22, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+    .container nav ul {
+      padding-top: 1%;
+      margin: 0 auto;
+      text-align: right;
+      font-size: 1.5rem; }
+    /* line 27, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+    .container nav li {
+      display: inline-block;
+      margin-left: 7%; }
+      /* line 30, C:/Users/mario_000/Documents/Github/BowerazaPage/css/home.sass */
+      .container nav li:nth-child(3) {
+        color: #ffb439; }
+
+/*# sourceMappingURL=home.css.map */

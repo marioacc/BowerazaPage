@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": [
+    "main.sass",
+    "sections/home.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAKI,AAAa,AACb,AAA2B,AAE/B,AACI,AAAU,AAEd,AACI,AAAQ,AACR,AAAW,ACbf,AAAW,AACH,AAAkB,AAClB,AAAO,AAEf,AAAW,AAAI,AAEH,AAAa,AACb,ADNF,ACOV,AAAW,AAAI,AACH,AAAa,AACb,AAAO,AACP,AAAW,AACX,AAAU,AACtB,AAAW,AAAI,AACH,AAAS,AACT,AAAa,AACzB,AAAW,AAAI,AAAE,AACD,ADjBJ",
+  "names": []
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Baron";
+  src: url('/fonts/Baron.ttf') format("truetype"); }
+
+/* line 9, C:/Users/mario_000/Documents/Github/BowerazaPage/css/main.sass */
+html {
+  font-size: 62.5%; }
+
+/* line 12, C:/Users/mario_000/Documents/Github/BowerazaPage/css/main.sass */
+.container {
+  margin: auto 0;
+  min-width: 100%; }
+
+/* line 1, C:/Users/mario_000/Documents/Github/BowerazaPage/css/sections/home.sass */
+.container nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white; }
+  /* line 5, C:/Users/mario_000/Documents/Github/BowerazaPage/css/sections/home.sass */
+  .container nav a {
+    font-family: Baron;
+    font-size: 2.5rem; }
+  /* line 9, C:/Users/mario_000/Documents/Github/BowerazaPage/css/sections/home.sass */
+  .container nav ul {
+    padding-top: 1%;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 1.5rem; }
+  /* line 14, C:/Users/mario_000/Documents/Github/BowerazaPage/css/sections/home.sass */
+  .container nav li {
+    display: inline-block;
+    margin-left: 7%; }
+    /* line 17, C:/Users/mario_000/Documents/Github/BowerazaPage/css/sections/home.sass */
+    .container nav li:nth-child(3) {
+      color: #ffb439; }
+
+/*# sourceMappingURL=main.css.map */

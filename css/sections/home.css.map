@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "home.css",
+  "sources": [
+    "home.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAII,AAAa,AACb,AAA2B,AAE/B,AACI,AAAU,AAEd,AACI,AAAQ,AACR,AAAW,AACf,AAAW,AACH,AAAkB,AAClB,AAAO,AAEf,AAAW,AAAI,AAEH,AAAa,AACb,AAnBF,AAoBV,AAAW,AAAI,AACH,AAAa,AACb,AAAO,AACP,AAAW,AACX,AAAU,AACtB,AAAW,AAAI,AACH,AAAS,AACT,AAAa,AACzB,AAAW,AAAI,AAAE,AACD,AA9BJ",
+  "names": []
+}
