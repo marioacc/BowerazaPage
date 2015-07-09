@@ -1,0 +1,37 @@
+@import "../sections/_containers"
+$back_color : rgba(0,0,0,0.4)
+nav 
+    background-color: $back_color
+    color: white
+    display: inline-block
+    position: fixed
+        
+    a
+        &#logo
+        font-family: Baron
+        font-size: $logoSize
+    ul
+        padding-top: 1%
+        margin: 0 auto
+        text-align: right
+        font-size: 1.5rem
+    li
+        display: inline-block
+        margin-left: 7%
+        &:nth-child(3)
+            color: $logoColor 
+footer 
+    background-color: $back_color
+    color: white
+    display: inline-block
+    margin-top: 35vh
+    max-height: 40px
+    ul
+        text-align: center
+        margin: 0 
+    li 
+        display: inline-block
+        margin: 1% 7%
+        @media screen and (max-width: 460px)
+            margin: 1% 3%
+        

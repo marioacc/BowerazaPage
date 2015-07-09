@@ -1,0 +1,21 @@
+@mixin background_img ($img, $display:flex) 
+    .#{$img}
+        background-image: url("../img/#{$img}.jpg")
+        background-size: cover
+* 
+    border-sizing: border-box
+html
+    font-size: 62.5%
+
+.container
+    margin: auto 0
+    min-width: 100%
+    min-height: 100vh
+    display: inline-block
+.v-center 
+    display: flex
+    justify-content: center
+    flex-direction: column
+    min-height: 100%
+    
+ 
