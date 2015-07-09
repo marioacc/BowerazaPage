@@ -104,6 +104,9 @@ footer {
   text-align: center;
   padding-top: 30vh;
   font-size: 10rem; }
+  @media screen and (max-width: 460px) {
+    .home h1, .quienessomos h1 {
+      font-size: 7rem; } }
 .home h2, .quienessomos h2 {
   text-align: center;
   color: #ffb439;
