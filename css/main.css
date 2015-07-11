@@ -13,6 +13,9 @@ h3 {
 html {
   font-size: 62.5%; }
 
+.columns {
+  margin: 0; }
+
 .container {
   margin: auto 0;
   min-width: 100%;
@@ -40,6 +43,9 @@ p {
 
 html {
   font-size: 62.5%; }
+
+.columns {
+  margin: 0; }
 
 .container {
   margin: auto 0;
@@ -153,5 +159,32 @@ footer {
   bottom: 5%; }
   .misionyvision .canvas p {
     padding: 10px; }
+
+.educacion {
+  background-image: url("../img/educacion.jpg");
+  background-size: cover; }
+
+.salud {
+  background-image: url("../img/salud.jpg");
+  background-size: cover; }
+
+.defensadelterritorio {
+  background-image: url("../img/defensadelterritorio.jpg");
+  background-size: cover; }
+
+img {
+  min-width: 100%; }
+
+.educacion {
+  min-height: 80vh;
+  min-width: 33.333vw; }
+
+.salud {
+  min-height: 80vh;
+  min-width: 33.333vw; }
+
+.defensadelterritorio {
+  min-height: 80vh;
+  min-width: 33.333vw; }
 
 /*# sourceMappingURL=main.css.map */
