@@ -1,0 +1,27 @@
+@include background_img(contacto) 
+    
+.contacto
+   @extend .misionyvision
+   .quote
+      float: right
+      p
+         text-indent: 0
+         font-size: 2em
+         text-align: right
+         margin: 0
+         padding: 0
+      .signs
+         content: " "
+         display: inline-block
+         min-height: 50px
+         min-width: 50px
+         background-size: 100% 100%
+         margin: 0 10px
+      p::before
+         @extend .signs
+         background-image: url("../img/quotes1.svg")
+      p::after
+         @extend .signs
+         background-image: url("../img/quotes2.svg")
+   .canvas
+      min-height: 20vh
