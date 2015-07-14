@@ -228,7 +228,8 @@ footer {
     display: block;
     font-size: 1.7em;
     text-align: right;
-    padding: 0 30px; }
+    padding: 0 30px;
+    margin-top: -5vh; }
     @media screen and (max-width: 500px) {
       .contacto .quote strong {
         font-size: 1.3em;
