@@ -28,6 +28,11 @@ html {
   flex-direction: column;
   min-height: 100%; }
 
+.canvas {
+  background-color: white;
+  min-height: 30vh;
+  display: inline-block; }
+
 p {
   max-width: 50vw;
   padding: 0 25vw;
@@ -58,6 +63,11 @@ html {
   justify-content: center;
   flex-direction: column;
   min-height: 100%; }
+
+.canvas {
+  background-color: white;
+  min-height: 30vh;
+  display: inline-block; }
 
 p {
   max-width: 50vw;
@@ -140,15 +150,11 @@ footer {
   background-image: url("../img/quienessomos.jpg");
   background-size: cover; }
 
-.quienessomos .canvas, .misionyvision .canvas {
-  background-color: white;
-  min-height: 30vh;
-  display: inline-block; }
-  .quienessomos .canvas h3, .misionyvision .canvas h3 {
-    font-family: Baron;
-    color: #ffb439;
-    text-align: center;
-    margin: 30px 0 0 0; }
+.quienessomos .canvas h3, .misionyvision .canvas h3 {
+  font-family: Baron;
+  color: #ffb439;
+  text-align: center;
+  margin: 30px 0 0 0; }
 
 .misionyvision {
   background-image: url("../img/misionyvision.jpg");
@@ -172,19 +178,17 @@ footer {
   background-image: url("../img/defensadelterritorio.jpg");
   background-size: cover; }
 
-img {
-  min-width: 100%; }
-
-.educacion {
-  min-height: 80vh;
-  min-width: 33.333vw; }
-
-.salud {
-  min-height: 80vh;
-  min-width: 33.333vw; }
-
-.defensadelterritorio {
-  min-height: 80vh;
-  min-width: 33.333vw; }
+.proyectos .four.columns {
+  width: 33.33333%; }
+.proyectos img {
+  float: left;
+  z-index: 2;
+  margin-top: -10%;
+  width: 25%;
+  margin-left: 37%; }
+.proyectos .educacion, .proyectos .salud, .proyectos .defensadelterritorio {
+  height: 60vh; }
+.proyectos p {
+  padding: 0 3rem; }
 
 /*# sourceMappingURL=main.css.map */
