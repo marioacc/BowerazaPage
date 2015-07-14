@@ -158,7 +158,7 @@ footer {
   position: absolute;
   bottom: 5%; }
   .misionyvision .canvas p, .contacto .canvas p {
-    padding: 10px; }
+    padding: 5%; }
 
 .educacion {
   background-image: url("../img/educacion.jpg");
@@ -198,18 +198,37 @@ img {
     font-size: 2em;
     text-align: right;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    color: #FFF; }
+    @media screen and (max-width: 500px) {
+      .contacto .quote p {
+        font-size: 1.5em; } }
   .contacto .quote .signs, .contacto .quote p::before, .contacto .quote p::after {
     content: " ";
     display: inline-block;
     min-height: 50px;
     min-width: 50px;
-    background-size: 100% 100%;
-    margin: 0 10px; }
+    background-size: 100% 100%; }
+    @media screen and (max-width: 500px) {
+      .contacto .quote .signs, .contacto .quote p::before, .contacto .quote p::after {
+        min-height: 30px;
+        min-width: 30px; } }
   .contacto .quote p::before {
-    background-image: url("../img/quotes1.svg"); }
+    background-image: url("../img/quotes1.svg");
+    margin: 0; }
   .contacto .quote p::after {
-    background-image: url("../img/quotes2.svg"); }
+    background-image: url("../img/quotes2.svg");
+    margin-top: -50px; }
+  .contacto .quote strong {
+    color: #FFF;
+    display: block;
+    font-size: 1.7em;
+    text-align: right;
+    padding: 0 30px; }
+    @media screen and (max-width: 500px) {
+      .contacto .quote strong {
+        font-size: 1.3em;
+        padding: 0 10px; } }
 .contacto .canvas {
   min-height: 20vh; }
 

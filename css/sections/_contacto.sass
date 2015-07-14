@@ -10,18 +10,34 @@
          text-align: right
          margin: 0
          padding: 0
+         color: #FFF
+         @media screen and (max-width: 500px)
+            font-size: 1.5em
       .signs
          content: " "
          display: inline-block
          min-height: 50px
          min-width: 50px
          background-size: 100% 100%
-         margin: 0 10px
+         @media screen and (max-width: 500px)
+            min-height: 30px
+            min-width: 30px
       p::before
          @extend .signs
          background-image: url("../img/quotes1.svg")
+         margin: 0
       p::after
          @extend .signs
          background-image: url("../img/quotes2.svg")
+         margin-top: -50px
+      strong 
+         color: #FFF
+         display: block
+         font-size: 1.7em
+         text-align: right
+         padding: 0 30px
+         @media screen and (max-width: 500px)
+            font-size: 1.3em
+            padding: 0 10px
    .canvas
       min-height: 20vh
