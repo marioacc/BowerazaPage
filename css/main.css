@@ -231,13 +231,63 @@ footer {
     font-size: 1.7em;
     text-align: right;
     padding: 0 30px;
-    margin-top: -5vh; }
+    margin-top: -5vh;
+    margin-bottom: 10px; }
     @media screen and (max-width: 500px) {
       .contacto .quote strong {
         font-size: 1.3em;
         padding: 0 10px; } }
 .contacto .canvas {
   min-height: 20vh; }
+  .contacto .canvas .paypal img {
+    max-width: 200px;
+    margin-top: -3vh;
+    margin-left: 20vw; }
+    @media screen and (max-width: 800px) {
+      .contacto .canvas .paypal img {
+        min-width: 50%;
+        max-height: 100px; } }
+    @media screen and (max-width: 500px) {
+      .contacto .canvas .paypal img {
+        margin-left: 25vw; } }
+  .contacto .canvas .contact {
+    margin-top: 5vh; }
+  .contacto .canvas p {
+    font-size: 2em;
+    text-indent: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 2vh;
+    margin-right: 10px; }
+    @media screen and (max-width: 800px) {
+      .contacto .canvas p {
+        margin-right: 7vw;
+        text-align: center; } }
+  .contacto .canvas strong {
+    display: inline-block;
+    max-width: 20px;
+    font-size: 3em;
+    float: left;
+    color: #ffb439; }
+    @media screen and (max-width: 550px) {
+      .contacto .canvas strong {
+        display: none; } }
+  .contacto .canvas .social-icon {
+    max-width: 50px;
+    margin: 2vh 2vw; }
+    @media screen and (max-width: 850px) {
+      .contacto .canvas .social-icon {
+        margin: 2vh 5px; } }
+    @media screen and (max-width: 630px) {
+      .contacto .canvas .social-icon {
+        margin: 2vh 1px; } }
+    @media screen and (max-width: 550px) {
+      .contacto .canvas .social-icon {
+        min-width: 33.33%;
+        margin: 0; } }
+    @media screen and (max-width: 550px) {
+      .contacto .canvas .social-icon img {
+        max-height: 70px; } }
 
 @media (min-width: 200px) {
   .proyectos > div {
