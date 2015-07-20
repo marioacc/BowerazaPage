@@ -178,18 +178,20 @@ footer {
   background-image: url("../img/defensadelterritorio.jpg");
   background-size: cover; }
 
-.proyectos .four.columns {
-  width: 33.33333%; }
-.proyectos img {
-  float: left;
-  z-index: 2;
-  margin-top: -10%;
-  width: 25%;
-  margin-left: 37%; }
-.proyectos .educacion, .proyectos .salud, .proyectos .defensadelterritorio {
-  height: 60vh; }
-.proyectos p {
-  padding: 0 3rem; }
+.proyectos {
+  margin-top: -0.7rem; }
+  .proyectos .four.columns {
+    width: 33.33333%; }
+  .proyectos img {
+    float: left;
+    z-index: 2;
+    margin-top: -10%;
+    width: 25%;
+    margin-left: 37%; }
+  .proyectos .educacion, .proyectos .salud, .proyectos .defensadelterritorio {
+    height: 60vh; }
+  .proyectos p {
+    padding: 0 3rem; }
 
 .contacto {
   background-image: url("../img/contacto.jpg");
@@ -236,5 +238,14 @@ footer {
         padding: 0 10px; } }
 .contacto .canvas {
   min-height: 20vh; }
+
+@media (min-width: 200px) {
+  .proyectos > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%; }
+  .proyectos .columns {
+    min-width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
