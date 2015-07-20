@@ -6,7 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     
   <meta charset="utf-8">
-  <title>Boweraza | Asociación Civil</title>
+  <title>Bowerasa | Asociación Civil</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -22,6 +22,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/responsive-nav.css">
   <link rel="stylesheet" href="css/main.css">
 
   <!-- Favicon
@@ -35,14 +36,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container home">
     <div class="row">
-        <nav class="twelve columns">
+        <div class="twelve columns menu">
             <a id="logo" class="one column">BOWERASA</a>
-            <ul class="eleven columns">
-                <li>¿Quiénes Somos?</li>
-                <li>¿Qué hacemos?</li>
-                <li>Involucrate</li>
-            </ul>
-        </nav>
+            <nav class="eleven columns nav-collapse">
+                <ul class="eleven columns">
+                    <li>¿Quiénes Somos?</li>
+                    <li>¿Qué hacemos?</li>
+                    <li>Involucrate</li>
+                </ul>
+            </nav>
+        </div>
     </div>
         <h1 class= "v-center">BOWERASA</h1>
         <h2>Sierra Tarahumara</h2>
@@ -120,15 +123,18 @@
      <!-- Apoyar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container contacto">
-    <div class="row  seven columns quote">                  
-         <p>En algún lugar de este mundo quiero que
-mi Pueblo
-Indio sea oído, no importa cuán pequeño
-sea el grupo.
-Todos tienen el derecho a ser quienes son</p>
-       <strong>-Phillip Deere</strong>
-      </div>
+      <div class="row">
       
+        <div class="  seven columns quote">                  
+             <p>En algún lugar de este mundo quiero que
+    mi Pueblo
+    Indio sea oído, no importa cuán pequeño
+    sea el grupo.
+    Todos tienen el derecho a ser quienes son</p>
+           <strong>-Phillip Deere</strong>
+          </div>
+      
+      </div>
       <div class= "row twelve columns canvas v-center">               <div class= "six columns paypal contact">
             <a class= "twelve columns"><img src= "img/apoyarButton.svg"></a>
           </div>
@@ -143,6 +149,12 @@ Todos tienen el derecho a ser quienes son</p>
           </div>
       </div>
    </div>
+    <script src="js/responsive-nav.js"></script>
+    <script>
+        var nav = responsiveNav(".nav-collapse",{
+            label: ""
+        });
+    </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

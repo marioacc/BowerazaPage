@@ -1,21 +1,24 @@
 @import "../sections/_containers"
 $back_color : rgba(0,0,0,0.4)
-nav 
+.menu 
     background-color: $back_color
     color: white
     display: inline-block
     position: fixed
     z-index: 3
+    text-align: center
         
     a
         &#logo
         font-family: Baron
         font-size: $logoSize
-        @media screen and (max-width: 550px)
-            min-width: 100vw
-            text-align: center
+    @media screen and (max-width: 550px)
+        min-width: 100vw
+        text-align: left
+        display: inline-block
     ul
         padding-top: 1%
+        
         margin: 0 auto
         text-align: right
         font-size: 1.5rem
@@ -24,6 +27,7 @@ nav
             margin: 0
     li
         display: inline-block
+        width: auto
         margin: auto 5%
         &:nth-child(3)
             color: $logoColor
