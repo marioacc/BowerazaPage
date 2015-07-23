@@ -9,7 +9,10 @@
   <title>Bowerasa | Asociación Civil</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+   </script>
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +37,10 @@
 
   <!-- Inicio
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container home">
+  <div class="container carousel home">
+    <div class= "home1">&nbsp;</div>
+    <div class= "home2">&nbsp;</div>
+    <div class= "home3">&nbsp;</div>
     <div class="row">
         <div class="twelve columns menu">
             <a id="logo" class="one column">BOWERASA</a>
@@ -155,6 +161,34 @@
             label: ""
         });
     </script>
+   <script>
+      var img;
+      var first_img;
+      var counter;
+      carousel();
+      function carousel() { 
+      first_img = $('.carousel > div:first');
+      img = $('.carousel > div:first');
+      counter = 1;
+      setInterval(rotate,3000); }
+      function rotate() {
+         console.log("rotating from image "+counter);
+         img.fadeOut(1000);
+         if(counter === 3) {
+            img = first_img;
+            img.fadeIn(1000);
+            counter = 1;}
+         else {
+            img = img.next();
+            img.fadeIn(1000);
+            counter++;
+         }
+         console.log(img);
+         
+      } 
+     
+     
+   </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

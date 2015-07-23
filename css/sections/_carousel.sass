@@ -1,0 +1,13 @@
+@mixin carousel_images ($images...)
+   @each $img in $images
+      @include background_img($img)
+      .#{$img}
+         background-size: cover
+         min-width: 100vw
+         min-height: 100vh
+         position: absolute
+         display: inline-block
+         z-index: -3
+
+.carousel
+   position: relative
