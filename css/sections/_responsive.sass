@@ -7,15 +7,28 @@
             min-height: 100%
         .columns
             min-width: 100%
-@media (max-width: 700px)
-    #logo
-        width: auto
-        
-@media (max-width: 400px)
+@media screen and  (max-width: 900px) and (min-width: 720px)
+    .menu
+        >a 
+            width: 100vw
+        nav
+            min-width: 100vw
+            ul
+                text-align: center
+                padding-top: 0
+    
+    
+    
+@media (max-width: 720px)
+    .menu
+        nav
+            float: none
     .nav-collapse
         li
-            display:block
+            margin-left: auto
+            margin-right: auto
+            display: block
             text-align: center
-            width: 100%
+            width: 100vw
     
     

@@ -43,11 +43,11 @@
     <div class= "home3">&nbsp;</div>
     <div class="row">
         <div class="twelve columns menu">
-            <a href="#logo"  class="one column">BOWERASA
+            <a href="#logo"  class="two column">BOWERASA
             <a id="logo"></a>
             </a>
-            <nav class="eleven columns nav-collapse">
-                <ul class="eleven columns">
+            <nav class="ten columns nav-collapse">
+                <ul>
                     <li><a href="#quienessomos">¿Quiénes Somos?</a></li>
                     <li><a href="#misionyvision">Misión y Visión</a></li>
                     <li><a href="#proyectos">¿Qué hacemos?</a></li>
@@ -162,37 +162,10 @@
     <script src="js/app.js"></script>
     <script>
         var nav = responsiveNav(".nav-collapse",{
-            label: ""
+            label: "",
+            closeOnNavClick: true,
         });
     </script>
-   <script>
-      var img;
-      var first_img;
-      var counter;
-      carousel();
-      function carousel() { 
-      first_img = $('.carousel > div:first');
-      img = $('.carousel > div:first');
-      counter = 1;
-      setInterval(rotate,3000); }
-      function rotate() {
-         console.log("rotating from image "+counter);
-         img.fadeOut(1000);
-         if(counter === 3) {
-            img = first_img;
-            img.fadeIn(1000);
-            counter = 1;}
-         else {
-            img = img.next();
-            img.fadeIn(1000);
-            counter++;
-         }
-         console.log(img);
-         
-      } 
-     
-     
-   </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

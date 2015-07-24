@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   function filterPath(string) {
   return string
@@ -46,4 +47,30 @@ $(document).ready(function() {
   }
  
 });
+$(document).ready(function(){
+      var img;
+      var first_img;
+      var counter;
+      carousel();
+      function carousel() { 
+      first_img = $('.carousel > div:first');
+      img = $('.carousel > div:first');
+      counter = 1;
+      setInterval(rotate,3000); }
+      function rotate() {
+         console.log("rotating from image "+counter);
+         img.fadeOut(1000);
+         if(counter === 3) {
+            img = first_img;
+            img.fadeIn(1000);
+            counter = 1;}
+         else {
+            img = img.next();
+            img.fadeIn(1000);
+            counter++;
+         }
+         console.log(img);
+         
+      } 
 
+});
