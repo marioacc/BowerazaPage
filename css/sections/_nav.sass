@@ -18,9 +18,9 @@ $back_color : rgba(0,0,0,0.4)
         min-width: 100vw
         text-align: left
         display: inline-block
+   
     ul
         padding-top: 1%
-        
         margin: 0 auto
         text-align: right
         font-size: 1.5rem
@@ -31,10 +31,21 @@ $back_color : rgba(0,0,0,0.4)
         display: inline-block
         width: auto
         margin: auto 5%
+        &:hover
+            a
+                color: $logoColor
+                transition: 0.3s
+                font-size: 2rem
         &:nth-child(4)
             a
                 color: $logoColor
+        &:nth-child(4):hover
+            a
+                color: #FFF
+                transition: 0.3s
+                font-size: 2.5rem
         @media screen and (max-width: 550px)
+         
        
 footer 
     background-color: $back_color

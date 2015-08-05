@@ -118,8 +118,16 @@ p {
     display: inline-block;
     width: auto;
     margin: auto 5%; }
+    .menu li:hover a {
+      color: #ffb439;
+      transition: 0.3s;
+      font-size: 2rem; }
     .menu li:nth-child(4) a {
       color: #ffb439; }
+    .menu li:nth-child(4):hover a {
+      color: #FFF;
+      transition: 0.3s;
+      font-size: 2.5rem; }
 
 footer {
   background-color: rgba(0, 0, 0, 0.4);
@@ -185,7 +193,7 @@ footer {
   font-size: 10rem; }
   @media screen and (max-width: 460px) {
     .home h1, .quienessomos h1, .misionyvision h1, .contacto h1 {
-      font-size: 7rem; } }
+      font-size: 5rem; } }
 .home h2, .quienessomos h2, .misionyvision h2, .contacto h2 {
   text-align: center;
   color: #ffb439;
@@ -283,56 +291,103 @@ footer {
         font-size: 1.3em;
         padding: 0 10px; } }
 .contacto .canvas {
-  min-height: 20vh; }
-  .contacto .canvas .paypal img {
-    max-width: 200px;
-    margin-top: -3vh;
-    margin-left: 20vw; }
+  min-height: 5vh; }
+  .contacto .canvas .paypal {
+    max-width: 30vw;
+    max-height: 10vh;
+    margin: 0 10px -3vh 10px;
+    /*CHROME :DD I am super awsome and sexy and I know it! */ }
+    .contacto .canvas .paypal:hover {
+      transition: 1s;
+      max-width: 40vw;
+      max-height: 15vh; }
     @media screen and (max-width: 800px) {
-      .contacto .canvas .paypal img {
-        min-width: 50%;
+      .contacto .canvas .paypal {
+        max-width: 200px;
         max-height: 100px; } }
-    @media screen and (max-width: 500px) {
-      .contacto .canvas .paypal img {
-        margin-left: 25vw; } }
-  .contacto .canvas .contact {
-    margin-top: 5vh; }
-  .contacto .canvas p {
+    @media screen and (max-width: 650px) {
+      .contacto .canvas .paypal {
+        margin: 3px 10px -3vh 3px; } }
+    @media screen and (max-width: 550px) {
+      .contacto .canvas .paypal {
+        margin: 0;
+        min-width: 100%;
+        max-height: 50px; } }
+  .contacto .canvas .contact p {
     font-size: 2em;
     text-indent: 0;
-    padding: 0;
-    display: inline-block;
+    padding: 0 3vw;
     margin-top: 2vh;
-    margin-right: 10px; }
+    display: inline-block; }
     @media screen and (max-width: 800px) {
-      .contacto .canvas p {
-        margin-right: 7vw;
-        text-align: center; } }
+      .contacto .canvas .contact p {
+        padding: 0; } }
+    @media screen and (max-width: 650px) {
+      .contacto .canvas .contact p {
+        font-size: 1.5em; } }
+    @media screen and (max-width: 550px) {
+      .contacto .canvas .contact p {
+        min-width: 100%;
+        text-align: center;
+        font-size: 1em;
+        margin: 0;
+        padding: 0; } }
+  .contacto .canvas .contact .mail {
+    font-size: 1.3em;
+    margin: 3vh 12vw 0 0;
+    color: #000;
+    font-weight: bold; }
+    @media screen and (max-width: 800px) {
+      .contacto .canvas .contact .mail {
+        text-align: center;
+        font-size: 1em;
+        margin-right: 8vw; } }
+    @media screen and (max-width: 650px) {
+      .contacto .canvas .contact .mail {
+        margin: 3vh 25vw 0 0;
+        font-size: 1.5em; } }
+    @media screen and (max-width: 550px) {
+      .contacto .canvas .contact .mail {
+        min-width: 100%;
+        text-align: center;
+        font-size: 1em;
+        margin: 0;
+        padding: 0; } }
+    .contacto .canvas .contact .mail:hover {
+      color: #ffb439;
+      transition: 1s;
+      font-size: 1.7em; }
   .contacto .canvas strong {
     display: inline-block;
     max-width: 20px;
+    margin-left: 3vw;
     font-size: 3em;
     float: left;
     color: #ffb439; }
+    @media screen and (max-width: 650px) {
+      .contacto .canvas strong {
+        margin: 0; } }
     @media screen and (max-width: 550px) {
       .contacto .canvas strong {
         display: none; } }
   .contacto .canvas .social-icon {
     max-width: 50px;
-    margin: 2vh 2vw; }
-    @media screen and (max-width: 850px) {
+    margin: 1vw 3vw 0 2vw;
+    /*CHROME :DD I am super awsome and sexy and I know it! */ }
+    @media screen and (max-width: 650px) {
       .contacto .canvas .social-icon {
-        margin: 2vh 5px; } }
-    @media screen and (max-width: 630px) {
-      .contacto .canvas .social-icon {
-        margin: 2vh 1px; } }
+        margin: 1vw 3vw 0 2vw;
+        max-width: 30px; } }
     @media screen and (max-width: 550px) {
       .contacto .canvas .social-icon {
-        min-width: 33.33%;
+        min-width: 50%;
         margin: 0; } }
+    .contacto .canvas .social-icon:hover {
+      transition: 1s;
+      max-width: 70px; }
     @media screen and (max-width: 550px) {
       .contacto .canvas .social-icon img {
-        max-height: 70px; } }
+        max-height: 30px; } }
 
 @media (max-width: 500px) {
   .proyectos > div {
