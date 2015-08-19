@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Baron";
-  src: url("../fonts/baron-webfont.eot");
-  src: url("../fonts/baron-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/baron-webfont.woff2") format("woff2"), url("../fonts/baron-webfont.woff") format("woff"), url("../fonts/baron-webfont.ttf") format("truetype"), url("../fonts/baron-webfont.svg#baronregular") format("svg");
+  src: url("fonts/baron-webfont.eot");
+  src: url("fonts/baron-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/baron-webfont.woff2") format("woff2"), url("fonts/baron-webfont.woff") format("woff"), url("fonts/baron-webfont.ttf") format("truetype"), url("fonts/baron-webfont.svg#baronregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 h3 {
@@ -248,6 +248,27 @@ footer {
     height: 60vh; }
   .proyectos p {
     padding: 0 3rem; }
+
+.proyectoeducacion {
+  background-image: url("../img/proyectoeducacion.jpg");
+  background-size: cover; }
+
+.proyectoeducacion .canvas {
+  margin-top: 60vh; }
+
+.proyectosalud {
+  background-image: url("../img/proyectosalud.jpg");
+  background-size: cover; }
+
+.proyectosalud .canvas {
+  margin-top: 60vh; }
+
+.proyectodefensaterritorio {
+  background-image: url("../img/proyectodefensaterritorio.jpg");
+  background-size: cover; }
+
+.proyectodefensaterritorio .canvas {
+  margin-top: 60vh; }
 
 .contacto {
   background-image: url("../img/contacto.jpg");
